@@ -41,12 +41,13 @@ user that has the following privileges:
 
 Then run
 
-    mysql < employees.sql
+    "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql" -u root -p
+    \. employees.sql
 
 
 If you want to install with two large partitioned tables, run
 
-    mysql < employees_partitioned.sql
+    \. employees_partitioned.sql
 
 
 ## Testing the installation
